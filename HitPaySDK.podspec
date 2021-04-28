@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nvngoc2409' => 'ninhngoc.t4.bkdn@gmail.com' }
-  s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :tag => s.version }
+  s.source       = { :git => 'https://github.com/nvngoc2409/HitPaySDK.git', :tag => s.version }
   s.source_files  = 'Classes/*.{h,m,swift}'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
