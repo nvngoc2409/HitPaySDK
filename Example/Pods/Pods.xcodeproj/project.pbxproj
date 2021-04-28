@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		254A17ECF6E8A70537FB478122123DC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		36EDA784477ECB71628F72B3F5A746A5 /* HitPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11340FAD24E878199D5A9EB0F2819688 /* HitPaySDK-dummy.m */; };
 		483006CE854DD4760E316B3EE9109134 /* Pods-HitPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DACA9F22369514AB29E56455E3E62CBC /* Pods-HitPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F3C42ED06B5FDFEFD619226217C9DEB /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE744AFDBFD6362A947D02AA71083BFA /* ReplaceMe.swift */; };
+		49BD30D8ABE6822BDEAE22FECD67B9E3 /* HitPaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EED8509572E129FE05CA14B9CF8774 /* HitPaySDK-dummy.m */; };
 		8B378815E49DE3BCD02ED99767CB9E5E /* Pods-HitPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA57B5C04B4BF04BDE301FE52A2AEEFD /* Pods-HitPaySDK_Example-dummy.m */; };
-		93BD17D1B787228568D3A557B369915D /* HitPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF2C2089FB74C4464BCCD4F4BFBAC18 /* HitPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93BD17D1B787228568D3A557B369915D /* HitPaySDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D89FFEC9A0A6DC834839FCCD102DC3 /* HitPaySDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		955330A470F07D39D3502A2BB6AF2991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A37B8902D48D940E1E7B5BB11F10385E /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D976BFA4ADB12AB0ACE611EB1A809 /* BlinkingLabel.swift */; };
 		ACEFD6A94894259CE60AA8074CE34138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		CA028964D43949C0D03B3C001B8091BC /* Pods-HitPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AD12078F19477F6984E7A4C0C50226F /* Pods-HitPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D718435CD9D628966455E459D90C0A42 /* Pods-HitPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C348B54F7DD5F5D54A754248626CA3 /* Pods-HitPaySDK_Tests-dummy.m */; };
@@ -38,38 +38,38 @@
 
 /* Begin PBXFileReference section */
 		0AD12078F19477F6984E7A4C0C50226F /* Pods-HitPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HitPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		11340FAD24E878199D5A9EB0F2819688 /* HitPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HitPaySDK-dummy.m"; sourceTree = "<group>"; };
+		1A3F85F1E559DF593C46BC8BC0E90D30 /* HitPaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HitPaySDK.debug.xcconfig; sourceTree = "<group>"; };
 		1A842DC680EA14212566E7A3500C2E10 /* Pods-HitPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HitPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		312849C2EB2F9B30D90124FB044604C5 /* Pods_HitPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HitPaySDK_Tests.framework; path = "Pods-HitPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EED8509572E129FE05CA14B9CF8774 /* HitPaySDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HitPaySDK-dummy.m"; sourceTree = "<group>"; };
 		4D7CD4E73F989ABFF06D09100E0D40A7 /* Pods-HitPaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HitPaySDK_Example-Info.plist"; sourceTree = "<group>"; };
-		55288DDD6694BE8B90BF51BEF6A93541 /* HitPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HitPaySDK.modulemap; sourceTree = "<group>"; };
+		5495645C20159FDD1F86D725F3644648 /* HitPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HitPaySDK-prefix.pch"; sourceTree = "<group>"; };
 		56C348B54F7DD5F5D54A754248626CA3 /* Pods-HitPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HitPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		678CD4E66C3B4DC4168EF46F450CCF6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C6604DD3F660B958FFF5A2E0BA966E8 /* HitPaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HitPaySDK-Info.plist"; sourceTree = "<group>"; };
 		72B88CC0F6979269F17D30DAF2E5954D /* Pods_HitPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HitPaySDK_Example.framework; path = "Pods-HitPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74804E536B2E00A25D449BBCD9498EEC /* Pods-HitPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HitPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		74EC2FD2D91100FB6BDDF1D474FE18C0 /* Pods-HitPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HitPaySDK_Example.modulemap"; sourceTree = "<group>"; };
-		76DD1615E5A687A5764B598F86C8C5F6 /* HitPaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HitPaySDK.release.xcconfig; sourceTree = "<group>"; };
-		83E0801CD0777A51BBC22ADE61A3BCDA /* HitPaySDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HitPaySDK-prefix.pch"; sourceTree = "<group>"; };
-		8BF2C2089FB74C4464BCCD4F4BFBAC18 /* HitPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HitPaySDK-umbrella.h"; sourceTree = "<group>"; };
 		902FE905057967CCBECA47E6FF0DCD92 /* Pods-HitPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HitPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		91342070B5D91AF5A75394F58B2CAEF6 /* HitPaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HitPaySDK.debug.xcconfig; sourceTree = "<group>"; };
+		907D976BFA4ADB12AB0ACE611EB1A809 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = HitPaySDK/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
+		9982918268929485B5D03E112DF82ACD /* HitPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HitPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A93788123B0316AF8E93B4555AD8FA /* HitPaySDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HitPaySDK.modulemap; sourceTree = "<group>"; };
+		A0B062F4681108D9693F5AEC7DA0612C /* HitPaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HitPaySDK.release.xcconfig; sourceTree = "<group>"; };
+		A3D89FFEC9A0A6DC834839FCCD102DC3 /* HitPaySDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HitPaySDK-umbrella.h"; sourceTree = "<group>"; };
 		B7A29B935F47631608ABAEADAC2C8F42 /* Pods-HitPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HitPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA57B5C04B4BF04BDE301FE52A2AEEFD /* Pods-HitPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HitPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
-		BC2885A2762827DEC08EFF858FDED5FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		C0B96652962919788BB467F064F7F590 /* Pods-HitPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HitPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C4333ACBB0CB5CC8F22E656C45A9B73B /* Pods-HitPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HitPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C79DCEEE3173A78E457D55E7228DC08B /* Pods-HitPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HitPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CA1F6ECB96C16D8436A662074A47EB15 /* Pods-HitPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HitPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		CB60F2CA853BF0FCF5AEDBAA85EC103F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		CBD39A2B8AFD4A4101519687C38E4A82 /* Pods-HitPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HitPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC1A682A3D71DFC9A38ECB2F21EF7F2D /* HitPaySDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HitPaySDK-Info.plist"; sourceTree = "<group>"; };
 		D1BAB91C70E9674C39D5318C2E70B595 /* Pods-HitPaySDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HitPaySDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		DACA9F22369514AB29E56455E3E62CBC /* Pods-HitPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HitPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		E090E4C5001210E1AE8CF779760238AF /* HitPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HitPaySDK.framework; path = HitPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3733A0C911854743A1E073EE970FCD /* Pods-HitPaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HitPaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		EE744AFDBFD6362A947D02AA71083BFA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HitPaySDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		EE99F258669B2EF415EE8F2818019CDC /* HitPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HitPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FB3DBC7EE0E04C125F05FE0D71C7458E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +100,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43F829E14BF1CAEB7A6D9567BAF91483 /* HitPaySDK */ = {
+		569A25AB12BA06D4FBB4A8CC4289ABB0 /* HitPaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				EE744AFDBFD6362A947D02AA71083BFA /* ReplaceMe.swift */,
-				E1A128AA14658A2881C384030690EEEB /* Pod */,
-				7FD5842A0286B41B29DCE12BEDC2F22E /* Support Files */,
+				907D976BFA4ADB12AB0ACE611EB1A809 /* BlinkingLabel.swift */,
+				F2374AB0A76D0EECDB23662A1B35825A /* Pod */,
+				6D75E690B0BD480AA623F82C7DC88175 /* Support Files */,
 			);
 			name = HitPaySDK;
 			path = ../..;
@@ -135,6 +135,21 @@
 			path = "Target Support Files/Pods-HitPaySDK_Tests";
 			sourceTree = "<group>";
 		};
+		6D75E690B0BD480AA623F82C7DC88175 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0A93788123B0316AF8E93B4555AD8FA /* HitPaySDK.modulemap */,
+				33EED8509572E129FE05CA14B9CF8774 /* HitPaySDK-dummy.m */,
+				6C6604DD3F660B958FFF5A2E0BA966E8 /* HitPaySDK-Info.plist */,
+				5495645C20159FDD1F86D725F3644648 /* HitPaySDK-prefix.pch */,
+				A3D89FFEC9A0A6DC834839FCCD102DC3 /* HitPaySDK-umbrella.h */,
+				1A3F85F1E559DF593C46BC8BC0E90D30 /* HitPaySDK.debug.xcconfig */,
+				A0B062F4681108D9693F5AEC7DA0612C /* HitPaySDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HitPaySDK";
+			sourceTree = "<group>";
+		};
 		74F02D9A4F8DFC56A7EB81F3DB054649 /* Pods-HitPaySDK_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,21 +167,6 @@
 			path = "Target Support Files/Pods-HitPaySDK_Example";
 			sourceTree = "<group>";
 		};
-		7FD5842A0286B41B29DCE12BEDC2F22E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				55288DDD6694BE8B90BF51BEF6A93541 /* HitPaySDK.modulemap */,
-				11340FAD24E878199D5A9EB0F2819688 /* HitPaySDK-dummy.m */,
-				CC1A682A3D71DFC9A38ECB2F21EF7F2D /* HitPaySDK-Info.plist */,
-				83E0801CD0777A51BBC22ADE61A3BCDA /* HitPaySDK-prefix.pch */,
-				8BF2C2089FB74C4464BCCD4F4BFBAC18 /* HitPaySDK-umbrella.h */,
-				91342070B5D91AF5A75394F58B2CAEF6 /* HitPaySDK.debug.xcconfig */,
-				76DD1615E5A687A5764B598F86C8C5F6 /* HitPaySDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HitPaySDK";
-			sourceTree = "<group>";
-		};
 		999F5D0A585504BD5B72892C00323449 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +179,7 @@
 		A6A50665EB24F3C4DC7876B3EC6ED3C8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43F829E14BF1CAEB7A6D9567BAF91483 /* HitPaySDK */,
+				569A25AB12BA06D4FBB4A8CC4289ABB0 /* HitPaySDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -203,16 +203,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E1A128AA14658A2881C384030690EEEB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EE99F258669B2EF415EE8F2818019CDC /* HitPaySDK.podspec */,
-				BC2885A2762827DEC08EFF858FDED5FC /* LICENSE */,
-				FB3DBC7EE0E04C125F05FE0D71C7458E /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		ED8D5D14C69E3D646E2D065A91633733 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +211,16 @@
 				312849C2EB2F9B30D90124FB044604C5 /* Pods_HitPaySDK_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F2374AB0A76D0EECDB23662A1B35825A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9982918268929485B5D03E112DF82ACD /* HitPaySDK.podspec */,
+				CB60F2CA853BF0FCF5AEDBAA85EC103F /* LICENSE */,
+				678CD4E66C3B4DC4168EF46F450CCF6E /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +277,7 @@
 			buildConfigurationList = 4DCA5F88F4A1F38F2433B16EB47D98D7 /* Build configuration list for PBXNativeTarget "HitPaySDK" */;
 			buildPhases = (
 				F2ADC676FFA9AF45A6AD622CA4D0A2A7 /* Headers */,
-				3B5255173898AEB7FB8AF95216A652F5 /* Sources */,
+				C4B7D637E5C455F1CE982FE597E1C516 /* Sources */,
 				9F856114CEFFE41158BB26CDE1356868 /* Frameworks */,
 				446BCDEC3F2C93C53773B5A643A383BB /* Resources */,
 			);
@@ -363,20 +363,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B5255173898AEB7FB8AF95216A652F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36EDA784477ECB71628F72B3F5A746A5 /* HitPaySDK-dummy.m in Sources */,
-				6F3C42ED06B5FDFEFD619226217C9DEB /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6B7E96FD573C5E08A51CEAF3C9F94572 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D718435CD9D628966455E459D90C0A42 /* Pods-HitPaySDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4B7D637E5C455F1CE982FE597E1C516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37B8902D48D940E1E7B5BB11F10385E /* BlinkingLabel.swift in Sources */,
+				49BD30D8ABE6822BDEAE22FECD67B9E3 /* HitPaySDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,10 +472,11 @@
 			};
 			name = Debug;
 		};
-		3E7D2598BC7504EACEE0FDFA84E64C2E /* Release */ = {
+		39658977D200C1CD0EF290FF83F00B8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76DD1615E5A687A5764B598F86C8C5F6 /* HitPaySDK.release.xcconfig */;
+			baseConfigurationReference = 1A3F85F1E559DF593C46BC8BC0E90D30 /* HitPaySDK.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -487,7 +488,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/HitPaySDK/HitPaySDK-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/HitPaySDK/HitPaySDK-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/HitPaySDK/HitPaySDK.modulemap";
 				PRODUCT_MODULE_NAME = HitPaySDK;
@@ -495,13 +496,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.4;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		5192963B78A2B580D0E1C862AC50C954 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -529,36 +529,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		56E0AE943BC25ED1EF15427A2396A102 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91342070B5D91AF5A75394F58B2CAEF6 /* HitPaySDK.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HitPaySDK/HitPaySDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HitPaySDK/HitPaySDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HitPaySDK/HitPaySDK.modulemap";
-				PRODUCT_MODULE_NAME = HitPaySDK;
-				PRODUCT_NAME = HitPaySDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -725,6 +695,38 @@
 			};
 			name = Release;
 		};
+		F93D89FDBEC29FF4F0BD730BCCFA60AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B062F4681108D9693F5AEC7DA0612C /* HitPaySDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HitPaySDK/HitPaySDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HitPaySDK/HitPaySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HitPaySDK/HitPaySDK.modulemap";
+				PRODUCT_MODULE_NAME = HitPaySDK;
+				PRODUCT_NAME = HitPaySDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -740,8 +742,8 @@
 		4DCA5F88F4A1F38F2433B16EB47D98D7 /* Build configuration list for PBXNativeTarget "HitPaySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56E0AE943BC25ED1EF15427A2396A102 /* Debug */,
-				3E7D2598BC7504EACEE0FDFA84E64C2E /* Release */,
+				39658977D200C1CD0EF290FF83F00B8E /* Debug */,
+				F93D89FDBEC29FF4F0BD730BCCFA60AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

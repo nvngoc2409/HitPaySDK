@@ -1,22 +1,24 @@
 {
   "name": "HitPaySDK",
   "version": "0.1.0",
-  "summary": "A short description of HitPaySDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Kevin/HitPaySDK",
+  "summary": "A subclass on UILabel that provides a blink.",
+  "description": "A complete description of HitPaySDK to payment",
+  "homepage": "https://github.com/nvngoc2409",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Kevin": "nvngoc249@gmail.com"
+    "nvngoc2409": "ninhngoc.t4.bkdn@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Kevin/HitPaySDK.git",
+    "git": "https://github.com/nvngoc2409/HitPaySDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "13.0"
   },
-  "source_files": "HitPaySDK/Classes/**/*"
+  "swift_versions": "5.4",
+  "source_files": "HitPaySDK/Classes/*.swift",
+  "swift_version": "5.4"
 }
