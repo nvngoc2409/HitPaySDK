@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nvngoc2409' => 'ninhngoc.t4.bkdn@gmail.com' }
   s.source       = { :git => 'https://github.com/nvngoc2409/HitPaySDK.git', :tag => s.version }
-  s.source_files  = 'Classes/*.{h,m,swift}'
+  s.source_files  = 'HitPaySDK'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
