@@ -22,12 +22,12 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'nvngoc2409' => 'ninhngoc.t4.bkdn@gmail.com' }
-  s.source           = { :git => 'https://github.com/nvngoc2409/HitPaySDK.git', :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/kevinrandrup/DropDownMenu.git", :tag => s.version }
+  s.source_files  = 'Classes/*.{h,m,swift}'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
   s.swift_version = "5.4"
-  s.source_files = '**/Classes/*'
   
   # s.resource_bundles = {
   #   'HitPaySDK' => ['HitPaySDK/Assets/*.png']
