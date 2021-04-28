@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HitPaySDK'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A subclass on UILabel that provides a blink.'
 
 # This description is used to generate tags and improve search results.
