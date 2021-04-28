@@ -1,0 +1,22 @@
+{
+  "name": "HitPaySDK",
+  "version": "0.1.0",
+  "summary": "A short description of HitPaySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kevin/HitPaySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kevin": "nvngoc249@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Kevin/HitPaySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HitPaySDK/Classes/**/*"
+}

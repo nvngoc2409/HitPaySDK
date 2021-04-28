@@ -1,0 +1,16 @@
+PODS:
+  - HitPaySDK (0.1.0)
+
+DEPENDENCIES:
+  - HitPaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  HitPaySDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HitPaySDK: 7e6367f6fc135bd171efd89ad6a96f7e56649a35
+
+PODFILE CHECKSUM: 2062de4402c25d741f054feaf4d3461d3401bfc4
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HitPaySDK_Example' do
+  pod 'HitPaySDK', :path => '../'
+
+  target 'HitPaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

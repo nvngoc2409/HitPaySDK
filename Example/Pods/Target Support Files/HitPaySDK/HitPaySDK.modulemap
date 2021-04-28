@@ -1,0 +1,6 @@
+framework module HitPaySDK {
+  umbrella header "HitPaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
