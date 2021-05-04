@@ -1,6 +1,6 @@
 {
   "name": "HitPaySDK",
-  "version": "0.1.0",
+  "version": "1.0.5",
   "summary": "A subclass on UILabel that provides a blink.",
   "description": "A complete description of HitPaySDK to payment",
   "homepage": "https://github.com/nvngoc2409",
@@ -13,12 +13,43 @@
   },
   "source": {
     "git": "https://github.com/nvngoc2409/HitPaySDK.git",
-    "tag": "0.1.0"
+    "tag": "1.0.5"
   },
+  "requires_arc": true,
+  "source_files": "HitPaySDK/**/**",
   "platforms": {
     "ios": "13.0"
   },
   "swift_versions": "5.4",
-  "source_files": "HitPaySDK/Classes/*.swift",
+  "resources": "HitPaySDK/**/*",
+  "resource_bundles": {
+    "HitPaySDK": [
+      "HitPaySDK/**/*"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "SwiftyJSON": [
+
+    ],
+    "CardIO": [
+
+    ],
+    "Stripe": [
+
+    ],
+    "Spring": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "KeychainSwift": [
+
+    ]
+  },
   "swift_version": "5.4"
 }

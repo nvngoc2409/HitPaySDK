@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C5D327B905F59413FF3C907 /* Pods_HitPaySDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D9657073ECDD730546EB0B /* Pods_HitPaySDK_Tests.framework */; };
+		0701D3A1002FAF07615D54EC /* Pods_HitPaySDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1A52943E758D57C71D8E2C3 /* Pods_HitPaySDK_Tests.framework */; };
 		3222F2CAE998B4EED404426F /* Pods_HitPaySDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8214D37E3D31DEABE6A1F436 /* Pods_HitPaySDK_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD02EC37888D7B7F9CA5FCA /* Pods-HitPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitPaySDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HitPaySDK_Tests/Pods-HitPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		10999371F944F472B3EBD6D9 /* HitPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HitPaySDK.podspec; path = ../HitPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13882AB7231578E655B3305D /* Pods-HitPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitPaySDK_Example.release.xcconfig"; path = "Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HitPaySDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitPaySDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,13 +41,12 @@
 		607FACE51AFB9204008FA782 /* HitPaySDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitPaySDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		73D9657073ECDD730546EB0B /* Pods_HitPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63F741AFEE16AEB2CBCF8564 /* Pods-HitPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitPaySDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-HitPaySDK_Tests/Pods-HitPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		76F338EE129D248C8B435EE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		79988776BFEC4D0C0FF5C236 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8214D37E3D31DEABE6A1F436 /* Pods_HitPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A835BFC0B3E2672A1B04850 /* Pods-HitPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitPaySDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HitPaySDK_Tests/Pods-HitPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D484AB4A2F553D1D364B555A /* Pods-HitPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitPaySDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-HitPaySDK_Tests/Pods-HitPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E1E1D517C0B3F0ACD11DAC33 /* Pods-HitPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitPaySDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F1A52943E758D57C71D8E2C3 /* Pods_HitPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C5D327B905F59413FF3C907 /* Pods_HitPaySDK_Tests.framework in Frameworks */,
+				0701D3A1002FAF07615D54EC /* Pods_HitPaySDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				8214D37E3D31DEABE6A1F436 /* Pods_HitPaySDK_Example.framework */,
-				73D9657073ECDD730546EB0B /* Pods_HitPaySDK_Tests.framework */,
+				F1A52943E758D57C71D8E2C3 /* Pods_HitPaySDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -153,8 +153,8 @@
 			children = (
 				E1E1D517C0B3F0ACD11DAC33 /* Pods-HitPaySDK_Example.debug.xcconfig */,
 				13882AB7231578E655B3305D /* Pods-HitPaySDK_Example.release.xcconfig */,
-				8A835BFC0B3E2672A1B04850 /* Pods-HitPaySDK_Tests.debug.xcconfig */,
-				D484AB4A2F553D1D364B555A /* Pods-HitPaySDK_Tests.release.xcconfig */,
+				0AD02EC37888D7B7F9CA5FCA /* Pods-HitPaySDK_Tests.debug.xcconfig */,
+				63F741AFEE16AEB2CBCF8564 /* Pods-HitPaySDK_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -171,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				C7D58CF13D7724A2C9100F28 /* [CP] Embed Pods Frameworks */,
+				CFD1EA750F181013CC5089EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,7 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "HitPaySDK_Tests" */;
 			buildPhases = (
-				1CFFA5D41A5D54D58AA94D63 /* [CP] Check Pods Manifest.lock */,
+				5D89756755A4E28DB308D567 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -262,28 +263,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1CFFA5D41A5D54D58AA94D63 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HitPaySDK_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		48BCC8F49F6011F5FCAEF296 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,6 +285,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5D89756755A4E28DB308D567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitPaySDK_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C7D58CF13D7724A2C9100F28 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,15 +314,43 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HitPaySDK/HitPaySDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainSwift/KeychainSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HitPaySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD1EA750F181013CC5089EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HitPaySDK/MySDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MySDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -507,7 +536,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A835BFC0B3E2672A1B04850 /* Pods-HitPaySDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0AD02EC37888D7B7F9CA5FCA /* Pods-HitPaySDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -529,7 +558,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D484AB4A2F553D1D364B555A /* Pods-HitPaySDK_Tests.release.xcconfig */;
+			baseConfigurationReference = 63F741AFEE16AEB2CBCF8564 /* Pods-HitPaySDK_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
