@@ -4,6 +4,7 @@ platform :ios, '13.0'
 
 target 'HitPaySDK_Example' do
   pod 'HitPaySDK', :path => '../'
+#  pod 'HitPaySDK'
 
   target 'HitPaySDK_Tests' do
     inherit! :search_paths

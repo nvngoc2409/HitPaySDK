@@ -171,7 +171,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				C7D58CF13D7724A2C9100F28 /* [CP] Embed Pods Frameworks */,
-				CFD1EA750F181013CC5089EE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,24 +332,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CFD1EA750F181013CC5089EE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/HitPaySDK/MySDK.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MySDK.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HitPaySDK_Example/Pods-HitPaySDK_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

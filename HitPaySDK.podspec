@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     s.ios.deployment_target = '13.0'
     s.swift_version = "5.4"
-    s.resources = 'HitPaySDK/**/*'
-    s.resource_bundles = {
-        'HitPaySDK' => ['HitPaySDK/**/*']
-    }
+#    s.resources = 'HitPaySDK/**/*'
+#    s.resource_bundles = {
+#        'HitPaySDK' => ['HitPaySDK/**/*', 'HitPaySDK/**/*/*']
+#    }
 #    s.resource_bundle = { 'HitPaySDK' => 'HitPaySDK/Assets/Resource.bundle/*.xcassets' }
     s.static_framework = true
     s.dependency 'Alamofire'
