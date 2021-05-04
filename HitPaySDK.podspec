@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'HitPaySDK'
-    s.version          = '1.0.6'
+    s.version          = '1.0.7'
     s.summary          = 'A subclass on UILabel that provides a blink.'
     s.description      = 'A complete description of HitPaySDK to payment'
     s.homepage         = 'https://github.com/nvngoc2409'
