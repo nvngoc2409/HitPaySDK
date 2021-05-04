@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'HitPaySDK'
-    s.version          = '1.0.7'
+    s.version          = '1.0.8'
     s.summary          = 'A subclass on UILabel that provides a blink.'
     s.description      = 'A complete description of HitPaySDK to payment'
     s.homepage         = 'https://github.com/nvngoc2409'
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     s.source_files = 'HitPaySDK/**/**'
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     s.ios.deployment_target = '13.0'
-    s.swift_version = "5.4"
+    s.swift_version = "4.2"
 #    s.resources = 'HitPaySDK/**/*'
 #    s.resource_bundles = {
 #        'HitPaySDK' => ['HitPaySDK/**/*', 'HitPaySDK/**/*/*']
