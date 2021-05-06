@@ -17,7 +17,7 @@ HitPaySDK is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'HitPaySDK'
+pod 'HitPaySDK', :git => 'https://github.com/nvngoc2409/HitPaySDK.git'
 ```
 
 ## Author
